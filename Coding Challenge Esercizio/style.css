@@ -1,0 +1,71 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+.backgroundnero{
+  background-color: rgba(60, 60, 60, 0.8);
+  width: 1300px;
+  margin: auto;
+  border: 2px solid rgba(60, 60, 60, 0.8) ;
+  border-radius: 5px;
+
+}
+
+/* Logo e ttolo */
+img{
+  padding-left: 100px;
+  padding-top: 110px;
+  width: 300px;
+  align-items: center;
+  display: flex;
+  margin: auto ;
+}
+header> h1 {
+display: flex;
+color: lime;
+padding-left: 400px;
+font-size:40px;
+}
+/* Submit e Background */
+nav{
+  width: 1000px;
+}
+nav{
+  border: 20px solid lime;
+  background-color: lime;
+  text-align: center;
+  margin: auto;
+}
+/* Main */
+main h2,p{
+  display: inline-block;
+  color: white;
+}
+main{
+  padding-left: 150px;
+  margin: auto;
+}
+ main,h1 {
+  font-family: 'Nunito', sans-serif;}
+  /* Color Bar */
+  .monopattino1{
+    background: orange;
+    height: 50px;
+    width: 500px;
+    border: 1px solid orange;
+    border-radius: 5px;
+  }
+  .monopattino2{
+    background: lightgreen;
+    height: 50px;
+    width: 900px;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+  }
+  .monopattino3{
+    background: red;
+    height: 50px;
+    width: 350px;
+    border: 1px solid red;
+    border-radius: 5px;
+  }
